@@ -47,4 +47,9 @@ python3 reKarma.py
 
 ## Standalone
 Move the .app to Applications  
-Run
+Run  
+  
+
+
+# Tags
+reddit, karma, watch, checker
