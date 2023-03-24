@@ -1,7 +1,7 @@
 # reKarma
 **MacOS menu bar app which continuously checks for the reddit's karma score of specified user.**
 
-![overview](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_1.png?raw=true)
+![overview](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_1.png)
 
 Every 5 minutes it checks for karma score of given user.  
 No reddit login is needed.  
@@ -10,9 +10,9 @@ Works with Python3
 *You can either clone this repo or use the standalone MacOS App.*
 
 # Screenshots
-![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png?raw=true)
-![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_4.png?raw=true)
-![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png?raw=true)
+![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png)
+![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_4.png)
+![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png)
 
 # Dependencies
 - rumps
