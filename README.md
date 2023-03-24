@@ -31,10 +31,12 @@ git clone https://github.com/nutellaordidnthappen/reKarma.git
 ```
 or  
   
-Download standalone app.
+[Download the app archive](https://github.com/nutellaordidnthappen/reKarma/releases/download/macos/reKarma.app.zip)  
+Unpack the .zip.  
+Move .app to Applications.  
 
 # How to use
-## Cloned
+- ## Cloned
 cd to dir
 ```console
 cd ~/.../reKarma
@@ -45,7 +47,9 @@ python3 reKarma.py
 ```
 
 
-## Standalone
+- ## Standalone
+Download as written above.  
+Unpack the .zip.  
 Move the .app to Applications  
 Run  
   
