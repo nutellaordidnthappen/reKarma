@@ -14,16 +14,17 @@ class reKarma(rumps.App):
         self.user = None
         self.menu[0] = "No user"
         os.makedirs(dataDir, exist_ok=True)
-        file = open(dataFile, "r")
-        user = file.read()
-        if(user != ""):
-            self.user = user
-            self.title = "k/0"
-        file.close()
+        if(os.path.exists(dataFile)):
+            file = open(dataFile, "r")
+            user = file.read()
+            if(user != ""):
+                self.user = user
+                self.title = "k/0"
+            file.close()
   
-    @rumps.clicked("Change r/username")
+    @rumps.clicked("Change user")
     def ahoj(self, sendr):
-        window = rumps.Window("Enter reddit username", "Enter r/username", dimensions=(300,50))
+        window = rumps.Window("Enter reddit username", "Enter u/username", dimensions=(300,50))
         response = window.run()
         if response.text != "":
             self.user = response.text
@@ -38,7 +39,7 @@ class reKarma(rumps.App):
     def getKarma(self, sender):
         if(self.user == None):
             return
-        self.menu[0].title = self.user
+        self.menu[0].title = "u/" + self.user
         data = requests.get("https://www.reddit.com/user/" + self.user, headers={"User-Agent": "linux:bo-Bo-t:v1.0.0 (by /u/nutellaordidnthappen)"})
         resp = re.findall("total.{1,5}?\d{1,10}(?=})", data.text, flags=re.S)
         if(len(resp)>0):
