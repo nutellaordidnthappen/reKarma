@@ -10,14 +10,9 @@ Works with Python3
 *You can either clone this repo or use the standalone MacOS App.*
 
 # Screenshots
-<div style="background:white">
-    <img src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png?raw=true" data-canonical-src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png?raw=true" height="150" margin="20"/>
-    <img src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png?raw=true" data-canonical-src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png?raw=true" height="300" />
-    <img src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_4.png?raw=true" data-canonical-src="https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_4.png?raw=true" height="150" />
-</div>
-<!-- ![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png?raw=true)
+![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_2.png?raw=true)
 ![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_4.png?raw=true)
-![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png?raw=true) -->
+![alt](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_3.png?raw=true)
 
 # Dependencies
 - rumps

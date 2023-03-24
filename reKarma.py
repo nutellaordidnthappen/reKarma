@@ -23,7 +23,7 @@ class reKarma(rumps.App):
             file.close()
   
     @rumps.clicked("Change user")
-    def ahoj(self, sendr):
+    def changeUser(self, sendr):
         window = rumps.Window("Enter reddit username", "Enter u/username", dimensions=(300,50))
         response = window.run()
         if response.text != "":
