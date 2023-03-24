@@ -1,7 +1,7 @@
 # reKarma
 **MacOS menu bar app which continuously checks for the reddit's karma score of specified user.**
 
- ![overview](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_1.png?raw=true)
+![overview](https://github.com/nutellaordidnthappen/reKarma/blob/master/imgs/File_1.png?raw=true)
 
 Every 5 minutes it checks for karma score of given user.  
 No reddit login is needed.  
